@@ -1,35 +1,34 @@
 @use "../global" as *;
 
 body {
-  font-family: $font-family;
   background-color: $background;
-  color: $color2;
+  color: $black;
   list-style: none;
   a {
-    color: $color2;
+    color: $black;
   }
-
   h1 {
-    @include f_around(24, bold, 36, 0);
+    @include f_style(115, bold, 132, 0);
+    color: $white;
   }
   h2 {
-    @include f_around(18, regular, 36, 0);
+    @include f_style(72, bold, 82, 0);
   }
   h3 {
-    @include f_around(14, regular, 21, 0);
+    @include f_style(40, bold, 45, 0);
   }
   li {
-    @include f_around(14, regular, 24, 0);
+    @include f_style(14.4, bold, 21, 0);
   }
 
   p {
-    @include f_around(14, regular, 23, 0);
+    @include f_style(14.4, regular, 21, 0);
   }
   dt,
   dd {
-    @include f_around(14, regular, 28, 0);
+    @include f_style(14, regular, 28, 0);
   }
   time {
-    @include f_around(14, regular, 21, 0);
+    @include f_style(14, regular, 21, 0);
   }
 }

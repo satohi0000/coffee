@@ -1,6 +1,4 @@
-@charset "UTF-8";
 body {
-  font-family: Helvetica Neue、Arial、Hiragino Sans、Hiragino Kaku Gothic ProN、Meiryo、sans-serif;
   background-color: #fff;
   color: #333333;
   list-style: none;
@@ -9,33 +7,34 @@ body a {
   color: #333333;
 }
 body h1 {
-  font-size: 24px;
+  font-size: 115px;
   font-weight: bold;
-  line-height: 1.5;
+  line-height: 1.147826087;
   letter-spacing: 0em;
+  color: #fff;
 }
 body h2 {
-  font-size: 18px;
-  font-weight: regular;
-  line-height: 2;
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 1.1388888889;
   letter-spacing: 0em;
 }
 body h3 {
-  font-size: 14px;
-  font-weight: regular;
-  line-height: 1.5;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.125;
   letter-spacing: 0em;
 }
 body li {
-  font-size: 14px;
-  font-weight: regular;
-  line-height: 1.7142857143;
+  font-size: 14.4px;
+  font-weight: bold;
+  line-height: 1.4583333333;
   letter-spacing: 0em;
 }
 body p {
-  font-size: 14px;
+  font-size: 14.4px;
   font-weight: regular;
-  line-height: 1.6428571429;
+  line-height: 1.4583333333;
   letter-spacing: 0em;
 }
 body dt,
