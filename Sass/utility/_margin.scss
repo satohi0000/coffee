@@ -1,0 +1,11 @@
+@use "../global" as *;
+
+.margin80 {
+  margin-top: 80px;
+}
+.margin85 {
+  margin-top: 85px;
+  @include tab {
+    margin-top: 78px;
+  }
+}
