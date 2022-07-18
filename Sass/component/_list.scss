@@ -1,19 +1,1 @@
 @use "../global" as *;
-.c-list {
-  width: 100%;
-  background-color: $color2;
-  height: 40px;
-  margin: 14px 0 0 0;
-
-  &__menu {
-    display: flex;
-    max-width: 1200px;
-    margin: 0 auto;
-    align-items: center;
-
-    a {
-      color: $color1;
-      margin: 10px 49px 0 13px;
-    }
-  }
-}

@@ -1,15 +1,4 @@
 @use "../global" as *;
 
 .l-header {
-  color: $color1;
-  width: 100%;
-  margin: 0 auto;
-  &__title {
-    max-width: 1176px;
-    margin: 0 auto;
-    margin-top: 23px;
-    @include tab {
-      margin-left: 18px;
-    }
-  }
 }
