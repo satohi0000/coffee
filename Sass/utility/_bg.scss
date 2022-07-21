@@ -1,0 +1,8 @@
+@use "../global" as *;
+
+.bg-fixed {
+  height: 300px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}

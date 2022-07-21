@@ -12,13 +12,15 @@ body {
     color: $white;
   }
   h2 {
-    @include f_style(72, bold, 82, 0);
+    @include f_style(63, bold, 82, 0);
+    color: $white;
   }
   h3 {
-    @include f_style(40, bold, 45, 0);
+    @include f_style(36, bold, 45, 40);
   }
   li {
     @include f_style(14.4, bold, 21, 0);
+    color: $white;
   }
 
   p {
@@ -26,7 +28,7 @@ body {
   }
   dt,
   dd {
-    @include f_style(14, regular, 28, 0);
+    @include f_style(14.4, regular, 21, 0);
   }
   time {
     @include f_style(14, regular, 21, 0);
