@@ -1,1 +1,42 @@
 @use "../global" as *;
+
+.btn {
+  margin: 3px 0 0 43.6%;
+  position: relative;
+  color: #333;
+  padding: 14px 38px;
+  display: inline-block;
+  text-decoration: none;
+  outline: none;
+  line-height: 22px;
+  &::before {
+    content: "";
+    position: absolute;
+    border: solid red;
+    width: 30px;
+    height: 25px;
+    transition: all 0.3s ease-in-out;
+    top: 0;
+    left: 0;
+    border-width: 2px 0 0 2px;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    border: solid red;
+    width: 30px;
+    height: 25px;
+    transition: all 0.3s ease-in-out;
+    bottom: 0;
+    right: 0;
+    border-width: 0 2px 2px 0;
+  }
+  &:hover {
+    &::before,
+    &::after {
+      width: calc(100% - 2px);
+      height: calc(100% - 2px);
+      border-color: red;
+    }
+  }
+}
