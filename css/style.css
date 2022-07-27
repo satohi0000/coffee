@@ -13,6 +13,7 @@ body h1 {
   line-height: 1.147826087;
   letter-spacing: 0em;
   color: #fff;
+  font-weight: Arial, sans-serif;
 }
 body h2 {
   font-size: 63px;
@@ -20,6 +21,7 @@ body h2 {
   line-height: 1.3015873016;
   letter-spacing: 0em;
   color: #fff;
+  font-weight: Arial, sans-serif;
 }
 body h3 {
   font-size: 36px;
@@ -27,6 +29,7 @@ body h3 {
   line-height: 1.25;
   letter-spacing: 0.04em;
   color: #333333;
+  font-weight: Arial, sans-serif;
 }
 body li {
   font-size: 14.4px;
@@ -35,11 +38,19 @@ body li {
   letter-spacing: 0em;
   color: #fff;
 }
-body p {
+body section {
   font-size: 14.4px;
   font-weight: regular;
-  line-height: 1.4583333333;
+  line-height: 2;
   letter-spacing: 0em;
+  color: #333333;
+}
+body p {
+  font-size: 13.1px;
+  font-weight: regular;
+  line-height: 1.7557251908;
+  letter-spacing: 0.000001em;
+  font-family: Meiryo, sans-serif;
 }
 body dt,
 body dd {
@@ -48,11 +59,15 @@ body dd {
   line-height: 1.4583333333;
   letter-spacing: 0em;
 }
+body section {
+  font-family: Meiryo, sans-serif;
+}
 body time {
   font-size: 14px;
   font-weight: regular;
   line-height: 1.5;
   letter-spacing: 0em;
+  font-family: Meiryo, sans-serif;
 }
 
 html,
@@ -230,6 +245,17 @@ select {
   width: 100%;
 }
 
+.l-footer {
+  text-align: center;
+  margin-top: 185px;
+}
+.l-footer p {
+  font-size: 10px;
+  font-weight: regular;
+  line-height: 1.5;
+  letter-spacing: 0em;
+}
+
 .l-header {
   background-image: url(../画像/img/mainvisual.jpg);
   background-size: cover;
@@ -349,13 +375,20 @@ select {
 }
 .p-article__about__text__right {
   width: 48%;
-  margin-left: 5px;
+  padding-left: 5%;
 }
 .p-article__location h3 {
   margin: 80px 0 0 40%;
   border-bottom: 6px solid #e03131;
   display: inline-block;
   padding-bottom: 15px;
+}
+.p-article__location__text {
+  margin-top: 10px;
+  margin-left: 12.3%;
+}
+.p-article__location__text p {
+  margin-top: 11px;
 }
 
 .c-list {
@@ -382,6 +415,7 @@ select {
   text-decoration: none;
   outline: none;
   line-height: 22px;
+  font-family: Meiryo, sans-serif;
 }
 .btn::before {
   content: "";
@@ -413,7 +447,7 @@ select {
 
 .c-map {
   margin: 65px 0 0 12%;
-  width: 75% !important;
+  width: 76% !important;
   height: 400px;
 }
 

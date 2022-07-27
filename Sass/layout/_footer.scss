@@ -1,4 +1,9 @@
 @use "../global" as *;
 
 .l-footer {
+  text-align: center;
+  margin-top: 185px;
+  p {
+    @include f_style(10, regular, 15, 0);
+  }
 }

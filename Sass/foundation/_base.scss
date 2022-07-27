@@ -10,28 +10,40 @@ body {
   h1 {
     @include f_style(115, bold, 132, 0);
     color: $white;
+    font-weight: $font-family2;
   }
   h2 {
     @include f_style(63, bold, 82, 0);
     color: $white;
+    font-weight: $font-family2;
   }
   h3 {
     @include f_style(36, bold, 45, 40);
     color: $black;
+    font-weight: $font-family2;
   }
   li {
     @include f_style(14.4, bold, 21, 0);
     color: $white;
   }
+  section {
+    @include f_style(14.4, regular, 28.8, 0);
+    color: $black;
+  }
 
   p {
-    @include f_style(14.4, regular, 21, 0);
+    @include f_style(13.1, regular, 23, 0.001);
+    font-family: $font-family6;
   }
   dt,
   dd {
     @include f_style(14.4, regular, 21, 0);
   }
+  section {
+    font-family: $font-family6;
+  }
   time {
     @include f_style(14, regular, 21, 0);
+    font-family: $font-family6;
   }
 }
