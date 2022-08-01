@@ -13,5 +13,9 @@
     text-align: center;
     top: 230px;
     font-family: $font-family2;
+    @include sp {
+      @include f_style(84.5, bold, 97, 0);
+      top: 250px;
+    }
   }
 }

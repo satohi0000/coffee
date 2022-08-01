@@ -9,6 +9,9 @@
     width: 100%;
     justify-content: end;
     margin-top: 15px;
+    @include sp {
+      margin-top: 20px;
+    }
 
     li {
       margin-right: 27px;

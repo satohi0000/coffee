@@ -16,11 +16,17 @@ body {
     @include f_style(63, bold, 82, 0);
     color: $white;
     font-weight: $font-family2;
+    @include sp {
+      font-size: 30px;
+    }
   }
   h3 {
     @include f_style(36, bold, 45, 40);
     color: $black;
     font-weight: $font-family2;
+    @include sp {
+      font-size: 18px;
+    }
   }
   li {
     @include f_style(14.4, bold, 21, 0);

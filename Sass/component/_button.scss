@@ -2,6 +2,9 @@
 
 .btn {
   margin: 3px 0 0 43.6%;
+  @include sp {
+    margin: 41px 0 0 28.6%;
+  }
   position: relative;
   color: #333;
   padding: 14px 38px;

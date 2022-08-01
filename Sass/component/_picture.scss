@@ -5,21 +5,29 @@
     position: relative;
     width: 100%;
     height: 500px;
+
+    @include sp {
+      height: 95px;
+      margin-top: -8px;
+    }
     &__title {
       width: 100%;
-      top: 724px;
+      top: 636px;
       text-align: center;
       position: absolute;
     }
     &__about {
       width: 100%;
       top: 1911px;
+      @include sp {
+        top: 1858px;
+      }
       text-align: center;
       position: absolute;
     }
     &__location {
       width: 100%;
-      top: 3008px;
+      top: 2914px;
       text-align: center;
       position: absolute;
     }

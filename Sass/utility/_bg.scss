@@ -2,6 +2,9 @@
 
 .bg-fixed {
   height: 300px;
+  @include sp {
+    height: 95px;
+  }
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
