@@ -1,3 +1,28 @@
+$title1: 663px;
+@mixin title1 {
+  @media (max-width: ($title1)) {
+    @content;
+  }
+}
+$title2: 599px;
+@mixin title2 {
+  @media (max-width: ($title2)) {
+    @content;
+  }
+}
+$title3: 515px;
+@mixin title3 {
+  @media (max-width: ($title3)) {
+    @content;
+  }
+}
+$title4: 434px;
+@mixin title4 {
+  @media (max-width: ($title4)) {
+    @content;
+  }
+}
+
 $tab: 768px;
 @mixin tab {
   @media (max-width: ($tab)) {
