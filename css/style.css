@@ -571,8 +571,7 @@ select {
   right: 0;
   border-width: 0 2px 2px 0;
 }
-.btn:hover::before,
-.btn:hover::after {
+.btn:hover::before, .btn:hover::after {
   width: calc(100% - 2px);
   height: calc(100% - 2px);
   border-color: red;
@@ -701,4 +700,4 @@ select {
   .bg-fixed {
     height: 95px;
   }
-} /*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
