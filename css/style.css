@@ -628,6 +628,11 @@ select {
     top: 1840px;
   }
 }
+@media (max-width: 434px) {
+  .c-picture__menu__about {
+    top: 1860px;
+  }
+}
 .c-picture__menu__location {
   width: 100%;
   top: 2969px;
